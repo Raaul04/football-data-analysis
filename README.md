@@ -2,23 +2,23 @@
 
 Small Python project focused on football data analysis.
 
-The goal of this project is to practice data analysis using Python and Pandas with a simple football dataset.
+The goal of this project is to practice data analysis using Python, Pandas and Matplotlib with a simple football dataset.
 
 ## Technologies
 
-- Python
-- Pandas
-- Matplotlib
-- CSV data
+* Python
+* Pandas
+* Matplotlib
+* CSV data
 
 ## What the project does
 
-- Loads football player data from a CSV file
-- Calculates goal contributions using goals and assists
-- Shows the top players by goal contributions
-- Calculates average goals by position
-- Creates a team summary
-- Generates a chart with goal contributions by player
+* Loads football player data from a CSV file
+* Calculates goal contributions using goals and assists
+* Shows the top players by goal contributions
+* Calculates average goals by position
+* Creates a team summary
+* Generates a chart with goal contributions by player
 
 ## Why I created this project
 
@@ -32,24 +32,30 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 Run the project:
+
+```bash
 python main.py
+```
 
 ## Output
 
 The project generates a chart called:
 
+```text
 goal_contributions.png
+```
 
 This chart shows the total goal contributions of each player.
 
-## Future Improvements
+## Future improvements
+
 Some possible improvements for this project are:
 
-- Add more football statistics
-- Calculate goal contributions per 90 minutes
-- Use a larger dataset
-- Add more charts and visualisations
-- Create a Jupyter Notebook version of the analysis
-
+* Add more football statistics
+* Calculate goal contributions per 90 minutes
+* Use a larger dataset
+* Add more charts and visualisations
+* Create a Jupyter Notebook version of the analysis
