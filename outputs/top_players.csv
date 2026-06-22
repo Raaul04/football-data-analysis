@@ -1,0 +1,11 @@
+name,team,position,age,goals,assists,minutes,goal_contributions,goal_contributions_per_90
+Bellingham,Real Madrid,Midfielder,21,18,10,2500,28,1.008
+Lewandowski,Barcelona,Forward,36,20,4,2400,24,0.9
+Vinicius Jr,Real Madrid,Forward,24,15,8,2200,23,0.9409090909090909
+Griezmann,Atletico Madrid,Forward,34,16,6,2300,22,0.8608695652173912
+Nico Williams,Athletic Club,Forward,22,8,11,2000,19,0.855
+Oyarzabal,Real Sociedad,Forward,28,12,5,1900,17,0.8052631578947368
+Isco,Real Betis,Midfielder,33,7,9,1700,16,0.8470588235294116
+Aspas,Celta Vigo,Forward,37,10,6,1800,16,0.8
+Pedri,Barcelona,Midfielder,22,5,7,1800,12,0.6000000000000001
+Koke,Atletico Madrid,Midfielder,33,2,5,2100,7,0.30000000000000004

@@ -26,6 +26,10 @@ def main():
     print(top_players[["name", "team", "goals", "assists", "goal_contributions"]])
     print()
 
+    top_players.to_csv("outputs/top_players.csv", index=False)
+    print("Top players saved as outputs/top_players.csv")
+    print()
+
     top_players_per_90 = players.sort_values(
         by="goal_contributions_per_90",
         ascending=False
@@ -37,6 +41,10 @@ def main():
             ["name", "team", "minutes", "goal_contributions", "goal_contributions_per_90"]
         ]
     )
+    print()
+
+    top_players_per_90.to_csv("outputs/top_players_per_90.csv", index=False)
+    print("Top players saved as outputs/top_players_per_90.csv")
     print()
 
     average_goals_by_position = players.groupby("position")["goals"].mean()
@@ -51,6 +59,10 @@ def main():
     print("Team summary:")
     print(team_summary)
     print()
+    
+    team_summary.to_csv("outputs/team_summary.csv")
+    print("Team summary saved as outputs/team_summary.csv")
+    print()
 
     # First chart: total goal contributions
     plt.figure(figsize=(10, 6))
@@ -60,8 +72,8 @@ def main():
     plt.ylabel("Goals + Assists")
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
-    plt.savefig("goal_contributions.png")
-
+    plt.savefig("outputs/goal_contributions.png")
+    
     print("Chart saved as goal_contributions.png")
 
     # Second chart: goal contributions per 90 minutes
@@ -72,7 +84,7 @@ def main():
     plt.ylabel("Goal Contributions per 90")
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
-    plt.savefig("goal_contributions_per_90.png")
+    plt.savefig("outputs/goal_contributions_per_90.png")
 
     print("Chart saved as goal_contributions_per_90.png")
 
