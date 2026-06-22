@@ -3,7 +3,12 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    players = pd.read_csv("data/players.csv")
+    players = pd.read_csv("data/players.csv", skipinitialspace=True)
+
+    players.columns = players.columns.str.strip()
+
+    for column in players.select_dtypes(include="object").columns:
+        players[column] = players[column].str.strip()
 
     print("=== Football Data Analysis ===")
     print()
@@ -63,30 +68,39 @@ def main():
     team_summary.to_csv("outputs/team_summary.csv")
     print("Team summary saved as outputs/team_summary.csv")
     print()
-
-    # First chart: total goal contributions
+    top_15_players = top_players.head(15)
+    # First chart: total goals contributions
     plt.figure(figsize=(10, 6))
-    plt.bar(top_players["name"], top_players["goal_contributions"])
-    plt.title("Goal Contributions by Player")
-    plt.xlabel("Player")
-    plt.ylabel("Goals + Assists")
-    plt.xticks(rotation=45, ha="right")
+    #Mejorar hacer barras Horizontales
+    plt.barh(top_15_players["name"], top_15_players["goal_contributions"])
+    plt.title("Top 15 Players by Goal Contributions")
+    plt.xlabel("Goals + Assists")
+    plt.ylabel("Player")
+    plt.gca().invert_yaxis()
     plt.tight_layout()
     plt.savefig("outputs/goal_contributions.png")
-    
-    print("Chart saved as goal_contributions.png")
+    plt.close()
 
-    # Second chart: goal contributions per 90 minutes
+    print("Chart saved as outputs/goal_contributions.png")
+
+
+
+
+    top_15_players_per_90 = top_players_per_90.head(15)
+
     plt.figure(figsize=(10, 6))
-    plt.bar(top_players_per_90["name"], top_players_per_90["goal_contributions_per_90"])
-    plt.title("Goal Contributions per 90 Minutes")
-    plt.xlabel("Player")
-    plt.ylabel("Goal Contributions per 90")
-    plt.xticks(rotation=45, ha="right")
+    plt.barh(
+        top_15_players_per_90["name"],
+        top_15_players_per_90["goal_contributions_per_90"]
+    )
+    #Second chart: goal contributions per 90 minutes
+    plt.title("Top 15 Players by Goal Contributions per 90 Minutes")
+    plt.xlabel("Goal Contributions per 90")
+    plt.ylabel("Player")
+    plt.gca().invert_yaxis()
     plt.tight_layout()
     plt.savefig("outputs/goal_contributions_per_90.png")
-
-    print("Chart saved as goal_contributions_per_90.png")
+    plt.close()
 
 
 if __name__ == "__main__":
