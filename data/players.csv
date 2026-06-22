@@ -1,11 +1,56 @@
-name,team,position,age,goals,assists,minutes
-Vinicius Jr,Real Madrid,Forward,24,15,8,2200
-Bellingham,Real Madrid,Midfielder,21,18,10,2500
-Lewandowski,Barcelona,Forward,36,20,4,2400
-Pedri,Barcelona,Midfielder,22,5,7,1800
-Griezmann,Atletico Madrid,Forward,34,16,6,2300
-Koke,Atletico Madrid,Midfielder,33,2,5,2100
-Nico Williams,Athletic Club,Forward,22,8,11,2000
-Oyarzabal,Real Sociedad,Forward,28,12,5,1900
-Isco,Real Betis,Midfielder,33,7,9,1700
-Aspas,Celta Vigo,Forward,37,10,6,1800
+name            , team           , position  , age, goals, assists, minutes
+Vinicius Jr     , Real Madrid    , Forward   ,  24,    15,       8,    2200
+Bellingham      , Real Madrid    , Midfielder,  21,    18,      10,    2500
+Mbappe          , Real Madrid    , Forward   ,  26,    22,       5,    2400
+Rodrygo         , Real Madrid    , Forward   ,  24,    11,       7,    2100
+Valverde        , Real Madrid    , Midfielder,  26,     6,       6,    2600
+Carvajal        , Real Madrid    , Defender  ,  33,     3,       5,    2300
+Lewandowski     , Barcelona      , Forward   ,  36,    20,       4,    2400
+Pedri           , Barcelona      , Midfielder,  22,     5,       7,    1800
+Raphinha        , Barcelona      , Forward   ,  28,    13,       9,    2200
+Lamine Yamal    , Barcelona      , Forward   ,  17,     9,      12,    2000
+De Jong         , Barcelona      , Midfielder,  27,     3,       5,    1900
+Kounde          , Barcelona      , Defender  ,  26,     2,       4,    2400
+Griezmann       , Atletico Madrid, Forward   ,  34,    16,       6,    2300
+Julian Alvarez  , Atletico Madrid, Forward   ,  25,    14,       5,    2100
+Koke            , Atletico Madrid, Midfielder,  33,     2,       5,    2100
+De Paul         , Atletico Madrid, Midfielder,  30,     4,       6,    2200
+Gimenez         , Atletico Madrid, Defender  ,  30,     1,       2,    1800
+Nico Williams   , Athletic Club  , Forward   ,  22,     8,      11,    2000
+Inaki Williams  , Athletic Club  , Forward   ,  30,    12,       7,    2300
+Sancet          , Athletic Club  , Midfielder,  25,     7,       5,    1800
+Vivian          , Athletic Club  , Defender  ,  25,     2,       1,    2100
+Oyarzabal       , Real Sociedad  , Forward   ,  28,    12,       5,    1900
+Kubo            , Real Sociedad  , Forward   ,  23,     9,       8,    2000
+Zubimendi       , Real Sociedad  , Midfielder,  26,     2,       4,    2400
+Le Normand      , Real Sociedad  , Defender  ,  28,     1,       1,    2200
+Isco            , Real Betis     , Midfielder,  33,     7,       9,    1700
+Ayoze Perez     , Real Betis     , Forward   ,  31,    10,       5,    1900
+Fornals         , Real Betis     , Midfielder,  29,     4,       6,    1800
+Bellerin        , Real Betis     , Defender  ,  30,     1,       3,    1600
+Aspas           , Celta Vigo     , Forward   ,  37,    10,       6,    1800
+Douvikas        , Celta Vigo     , Forward   ,  25,     8,       2,    1300
+Bamba           , Celta Vigo     , Forward   ,  29,     5,       5,    1700
+Mingueza        , Celta Vigo     , Defender  ,  25,     2,       6,    2000
+Dovbyk          , Girona         , Forward   ,  27,    18,       6,    2300
+Tsygankov       , Girona         , Forward   ,  27,     8,       8,    1900
+Aleix Garcia    , Girona         , Midfielder,  28,     4,       7,    2400
+Miguel Gutierrez, Girona         , Defender  ,  24,     2,       6,    2200
+En-Nesyri       , Sevilla        , Forward   ,  28,    13,       3,    2100
+Ocampos         , Sevilla        , Forward   ,  30,     7,       4,    1800
+Rakitic         , Sevilla        , Midfielder,  37,     3,       5,    1700
+Navas           , Sevilla        , Defender  ,  39,     0,       4,    1600
+Morales         , Villarreal     , Forward   ,  37,     9,       3,    1500
+Gerard Moreno   , Villarreal     , Forward   ,  33,    14,       4,    1900
+Parejo          , Villarreal     , Midfielder,  36,     3,       7,    2200
+Baena           , Villarreal     , Midfielder,  23,     5,      10,    2100
+Gaya            , Valencia       , Defender  ,  30,     1,       5,    2000
+Pepelu          , Valencia       , Midfielder,  26,     4,       6,    2300
+Hugo Duro       , Valencia       , Forward   ,  25,    11,       3,    2100
+Mamardashvili   , Valencia       , Goalkeeper,  24,     0,       0,    2700
+Courtois        , Real Madrid    , Goalkeeper,  32,     0,       0,    1800
+Ter Stegen      , Barcelona      , Goalkeeper,  32,     0,       0,    2500
+Oblak           , Atletico Madrid, Goalkeeper,  32,     0,       0,    2700
+Young Prospect  , Real Madrid    , Forward   ,  19,     2,       1,     120
+Backup Striker  , Barcelona      , Forward   ,  23,     3,       0,     150
+Cup Player      , Atletico Madrid, Midfielder,  21,     1,       2,     200
