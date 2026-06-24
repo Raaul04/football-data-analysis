@@ -4,16 +4,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def main():
-    output_dir = Path("outputs")
-    output_dir.mkdir(exist_ok=True)
-
-    players = pd.read_csv("data/players.csv", skipinitialspace=True)
+def load_players(file_path):
+    players = pd.read_csv(file_path, skipinitialspace=True)
 
     players.columns = players.columns.str.strip()
 
     for column in players.select_dtypes(include="object").columns:
         players[column] = players[column].str.strip()
+
+    return players
+
+
+def main():
+
+    output_dir = Path("outputs")
+    output_dir.mkdir(exist_ok=True)
+
+    players = load_players("data/players.csv")
 
     print("=== Football Data Analysis ===")
     print()
@@ -27,7 +34,7 @@ def main():
 
     # Calculate goal contributions per 90 minutes
     players["goal_contributions_per_90"] = (
-    players["goal_contributions"] / players["minutes"] * 90
+        players["goal_contributions"] / players["minutes"] * 90
     ).round(2)
 
     # Calculate goals and assists per 90 minutes
@@ -40,19 +47,19 @@ def main():
     ).round(2)
 
     player_metrics = players[
-    [
-        "name",
-        "team",
-        "position",
-        "age",
-        "goals",
-        "assists",
-        "minutes",
-        "goal_contributions",
-        "goals_per_90",
-        "assists_per_90",
-        "goal_contributions_per_90",
-     ]
+        [
+            "name",
+            "team",
+            "position",
+            "age",
+            "goals",
+            "assists",
+            "minutes",
+            "goal_contributions",
+            "goals_per_90",
+            "assists_per_90",
+            "goal_contributions_per_90",
+        ]
     ]         
 
     player_metrics.to_csv(output_dir / "player_metrics.csv", index=False)
