@@ -30,6 +30,10 @@ def main():
         players["goal_contributions"] / players["minutes"] * 90
     ).round(2)
 
+    min_minutes = 500
+
+    players_with_enough_minutes = players[players["minutes"] >= min_minutes].copy()
+
     top_players = players.sort_values(by="goal_contributions", ascending=False)
 
     print("Top players by goal contributions:")
@@ -40,12 +44,13 @@ def main():
     print("Top players saved as outputs/top_players.csv")
     print()
 
-    top_players_per_90 = players.sort_values(
+    top_players_per_90 = players_with_enough_minutes.sort_values(
         by="goal_contributions_per_90",
         ascending=False
     )
 
-    print("Top players by goal contributions per 90 minutes:")
+
+    print(f"Top players by goal contributions per 90 minutes, minimum {min_minutes} minutes:")
     print(
         top_players_per_90[
             ["name", "team", "minutes", "goal_contributions", "goal_contributions_per_90"]
