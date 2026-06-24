@@ -27,8 +27,37 @@ def main():
 
     # Calculate goal contributions per 90 minutes
     players["goal_contributions_per_90"] = (
-        players["goal_contributions"] / players["minutes"] * 90
+    players["goal_contributions"] / players["minutes"] * 90
     ).round(2)
+
+    # Calculate goals and assists per 90 minutes
+    players["goals_per_90"] = (
+        players["goals"] / players["minutes"] * 90
+    ).round(2)
+
+    players["assists_per_90"] = (
+        players["assists"] / players["minutes"] * 90
+    ).round(2)
+
+    player_metrics = players[
+    [
+        "name",
+        "team",
+        "position",
+        "age",
+        "goals",
+        "assists",
+        "minutes",
+        "goal_contributions",
+        "goals_per_90",
+        "assists_per_90",
+        "goal_contributions_per_90",
+     ]
+    ]         
+
+    player_metrics.to_csv(output_dir / "player_metrics.csv", index=False)
+    print("Player metrics saved as outputs/player_metrics.csv")
+    print()
 
     min_minutes = 500
 

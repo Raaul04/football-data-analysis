@@ -1,56 +1,56 @@
-name,team,position,age,goals,assists,minutes,goal_contributions,goal_contributions_per_90
-Bellingham,Real Madrid,Midfielder,21,18,10,2500,28,1.01
-Mbappe,Real Madrid,Forward,26,22,5,2400,27,1.01
-Lewandowski,Barcelona,Forward,36,20,4,2400,24,0.9
-Dovbyk,Girona,Forward,27,18,6,2300,24,0.94
-Vinicius Jr,Real Madrid,Forward,24,15,8,2200,23,0.94
-Griezmann,Atletico Madrid,Forward,34,16,6,2300,22,0.86
-Raphinha,Barcelona,Forward,28,13,9,2200,22,0.9
-Lamine Yamal,Barcelona,Forward,17,9,12,2000,21,0.94
-Nico Williams,Athletic Club,Forward,22,8,11,2000,19,0.86
-Julian Alvarez,Atletico Madrid,Forward,25,14,5,2100,19,0.81
-Inaki Williams,Athletic Club,Forward,30,12,7,2300,19,0.74
-Gerard Moreno,Villarreal,Forward,33,14,4,1900,18,0.85
-Rodrygo,Real Madrid,Forward,24,11,7,2100,18,0.77
-Kubo,Real Sociedad,Forward,23,9,8,2000,17,0.76
-Oyarzabal,Real Sociedad,Forward,28,12,5,1900,17,0.81
-Isco,Real Betis,Midfielder,33,7,9,1700,16,0.85
-Tsygankov,Girona,Forward,27,8,8,1900,16,0.76
-Aspas,Celta Vigo,Forward,37,10,6,1800,16,0.8
-En-Nesyri,Sevilla,Forward,28,13,3,2100,16,0.69
-Ayoze Perez,Real Betis,Forward,31,10,5,1900,15,0.71
-Baena,Villarreal,Midfielder,23,5,10,2100,15,0.64
-Hugo Duro,Valencia,Forward,25,11,3,2100,14,0.6
-Sancet,Athletic Club,Midfielder,25,7,5,1800,12,0.6
-Valverde,Real Madrid,Midfielder,26,6,6,2600,12,0.42
-Morales,Villarreal,Forward,37,9,3,1500,12,0.72
-Pedri,Barcelona,Midfielder,22,5,7,1800,12,0.6
-Aleix Garcia,Girona,Midfielder,28,4,7,2400,11,0.41
-Ocampos,Sevilla,Forward,30,7,4,1800,11,0.55
-Fornals,Real Betis,Midfielder,29,4,6,1800,10,0.5
-De Paul,Atletico Madrid,Midfielder,30,4,6,2200,10,0.41
-Bamba,Celta Vigo,Forward,29,5,5,1700,10,0.53
-Parejo,Villarreal,Midfielder,36,3,7,2200,10,0.41
-Pepelu,Valencia,Midfielder,26,4,6,2300,10,0.39
-Douvikas,Celta Vigo,Forward,25,8,2,1300,10,0.69
-Mingueza,Celta Vigo,Defender,25,2,6,2000,8,0.36
-De Jong,Barcelona,Midfielder,27,3,5,1900,8,0.38
-Carvajal,Real Madrid,Defender,33,3,5,2300,8,0.31
-Rakitic,Sevilla,Midfielder,37,3,5,1700,8,0.42
-Miguel Gutierrez,Girona,Defender,24,2,6,2200,8,0.33
-Koke,Atletico Madrid,Midfielder,33,2,5,2100,7,0.3
-Zubimendi,Real Sociedad,Midfielder,26,2,4,2400,6,0.22
-Kounde,Barcelona,Defender,26,2,4,2400,6,0.22
-Gaya,Valencia,Defender,30,1,5,2000,6,0.27
-Navas,Sevilla,Defender,39,0,4,1600,4,0.22
-Bellerin,Real Betis,Defender,30,1,3,1600,4,0.22
-Vivian,Athletic Club,Defender,25,2,1,2100,3,0.13
-Gimenez,Atletico Madrid,Defender,30,1,2,1800,3,0.15
-Backup Striker,Barcelona,Forward,23,3,0,150,3,1.8
-Cup Player,Atletico Madrid,Midfielder,21,1,2,200,3,1.35
-Young Prospect,Real Madrid,Forward,19,2,1,120,3,2.25
-Le Normand,Real Sociedad,Defender,28,1,1,2200,2,0.08
-Ter Stegen,Barcelona,Goalkeeper,32,0,0,2500,0,0.0
-Courtois,Real Madrid,Goalkeeper,32,0,0,1800,0,0.0
-Mamardashvili,Valencia,Goalkeeper,24,0,0,2700,0,0.0
-Oblak,Atletico Madrid,Goalkeeper,32,0,0,2700,0,0.0
+name,team,position,age,goals,assists,minutes,goal_contributions,goal_contributions_per_90,goals_per_90,assists_per_90
+Bellingham,Real Madrid,Midfielder,21,18,10,2500,28,1.01,0.65,0.36
+Mbappe,Real Madrid,Forward,26,22,5,2400,27,1.01,0.82,0.19
+Lewandowski,Barcelona,Forward,36,20,4,2400,24,0.9,0.75,0.15
+Dovbyk,Girona,Forward,27,18,6,2300,24,0.94,0.7,0.23
+Vinicius Jr,Real Madrid,Forward,24,15,8,2200,23,0.94,0.61,0.33
+Griezmann,Atletico Madrid,Forward,34,16,6,2300,22,0.86,0.63,0.23
+Raphinha,Barcelona,Forward,28,13,9,2200,22,0.9,0.53,0.37
+Lamine Yamal,Barcelona,Forward,17,9,12,2000,21,0.94,0.4,0.54
+Nico Williams,Athletic Club,Forward,22,8,11,2000,19,0.86,0.36,0.5
+Julian Alvarez,Atletico Madrid,Forward,25,14,5,2100,19,0.81,0.6,0.21
+Inaki Williams,Athletic Club,Forward,30,12,7,2300,19,0.74,0.47,0.27
+Gerard Moreno,Villarreal,Forward,33,14,4,1900,18,0.85,0.66,0.19
+Rodrygo,Real Madrid,Forward,24,11,7,2100,18,0.77,0.47,0.3
+Kubo,Real Sociedad,Forward,23,9,8,2000,17,0.76,0.4,0.36
+Oyarzabal,Real Sociedad,Forward,28,12,5,1900,17,0.81,0.57,0.24
+Isco,Real Betis,Midfielder,33,7,9,1700,16,0.85,0.37,0.48
+Tsygankov,Girona,Forward,27,8,8,1900,16,0.76,0.38,0.38
+Aspas,Celta Vigo,Forward,37,10,6,1800,16,0.8,0.5,0.3
+En-Nesyri,Sevilla,Forward,28,13,3,2100,16,0.69,0.56,0.13
+Ayoze Perez,Real Betis,Forward,31,10,5,1900,15,0.71,0.47,0.24
+Baena,Villarreal,Midfielder,23,5,10,2100,15,0.64,0.21,0.43
+Hugo Duro,Valencia,Forward,25,11,3,2100,14,0.6,0.47,0.13
+Sancet,Athletic Club,Midfielder,25,7,5,1800,12,0.6,0.35,0.25
+Valverde,Real Madrid,Midfielder,26,6,6,2600,12,0.42,0.21,0.21
+Morales,Villarreal,Forward,37,9,3,1500,12,0.72,0.54,0.18
+Pedri,Barcelona,Midfielder,22,5,7,1800,12,0.6,0.25,0.35
+Aleix Garcia,Girona,Midfielder,28,4,7,2400,11,0.41,0.15,0.26
+Ocampos,Sevilla,Forward,30,7,4,1800,11,0.55,0.35,0.2
+Fornals,Real Betis,Midfielder,29,4,6,1800,10,0.5,0.2,0.3
+De Paul,Atletico Madrid,Midfielder,30,4,6,2200,10,0.41,0.16,0.25
+Bamba,Celta Vigo,Forward,29,5,5,1700,10,0.53,0.26,0.26
+Parejo,Villarreal,Midfielder,36,3,7,2200,10,0.41,0.12,0.29
+Pepelu,Valencia,Midfielder,26,4,6,2300,10,0.39,0.16,0.23
+Douvikas,Celta Vigo,Forward,25,8,2,1300,10,0.69,0.55,0.14
+Mingueza,Celta Vigo,Defender,25,2,6,2000,8,0.36,0.09,0.27
+De Jong,Barcelona,Midfielder,27,3,5,1900,8,0.38,0.14,0.24
+Carvajal,Real Madrid,Defender,33,3,5,2300,8,0.31,0.12,0.2
+Rakitic,Sevilla,Midfielder,37,3,5,1700,8,0.42,0.16,0.26
+Miguel Gutierrez,Girona,Defender,24,2,6,2200,8,0.33,0.08,0.25
+Koke,Atletico Madrid,Midfielder,33,2,5,2100,7,0.3,0.09,0.21
+Zubimendi,Real Sociedad,Midfielder,26,2,4,2400,6,0.22,0.08,0.15
+Kounde,Barcelona,Defender,26,2,4,2400,6,0.22,0.08,0.15
+Gaya,Valencia,Defender,30,1,5,2000,6,0.27,0.04,0.22
+Navas,Sevilla,Defender,39,0,4,1600,4,0.22,0.0,0.22
+Bellerin,Real Betis,Defender,30,1,3,1600,4,0.22,0.06,0.17
+Vivian,Athletic Club,Defender,25,2,1,2100,3,0.13,0.09,0.04
+Gimenez,Atletico Madrid,Defender,30,1,2,1800,3,0.15,0.05,0.1
+Backup Striker,Barcelona,Forward,23,3,0,150,3,1.8,1.8,0.0
+Cup Player,Atletico Madrid,Midfielder,21,1,2,200,3,1.35,0.45,0.9
+Young Prospect,Real Madrid,Forward,19,2,1,120,3,2.25,1.5,0.75
+Le Normand,Real Sociedad,Defender,28,1,1,2200,2,0.08,0.04,0.04
+Ter Stegen,Barcelona,Goalkeeper,32,0,0,2500,0,0.0,0.0,0.0
+Courtois,Real Madrid,Goalkeeper,32,0,0,1800,0,0.0,0.0,0.0
+Mamardashvili,Valencia,Goalkeeper,24,0,0,2700,0,0.0,0.0,0.0
+Oblak,Atletico Madrid,Goalkeeper,32,0,0,2700,0,0.0,0.0,0.0
